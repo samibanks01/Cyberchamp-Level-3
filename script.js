@@ -1,121 +1,151 @@
 const questions = [
     {
-        question: "1. You receive a package addressed to your neighbor, but the name seems slightly misspelled.  What's the safest course of action? 14 remaining",
+        question: "1. Why is cybersecurity important? 14 remaining",
         answers: [
-          "Leave the package unopened and alert your neighbor or the delivery company.",
-          "Open the package and see if it's something valuable you can keep."          
+          "To keep your computer running smoothly.",
+          "To protect sensitive information from unauthorized access.",
+          "To ensure all websites are accessible.",
+          "To browse the internet anonymously."
         ],
-        correctAnswer: 0 //1
+        correctAnswer: 1 //1
       },
       {
-        question: "2. Your grandma calls, worried about a pop-up message on her computer claiming her device is infected. What's the best advice? 13 remaining",
+        question: "2. The CIA triad represents three key principles in information security. What does 'A' stand for? 13 remaining",
         answers: [
-          "Tell her to click 'OK' on the pop-up to fix the problem.",
-          "Instruct her to power down the computer and not to click anything."
+          "Authentication",
+          "Availability",
+          "Confidentiality",
+          "Authorization"
         ],
         correctAnswer: 1 //2
       },
       {
-        question: "3. You're browsing the web and see an ad for a 'magic device' that promises to hack into any social media account. What should your red flag be? 12 remaining",
+        question: "3. Which of the following is NOT a core element of information security? 12 remaining",
         answers: [
-          "Hacking into other people's accounts is illegal and unethical.",
-          "The ad has a lot of positive customer reviews."
+          "Confidentiality",
+          "Integrity",
+          "Redundancy",
+          "Availability"
+        ],
+        correctAnswer: 2
+      },
+      {
+        question: "4. The cybersecurity landscape is constantly evolving. What is a term used to describe malicious attempts to exploit vulnerabilities in computer systems? 11 remaining",
+        answers: [
+          "Patch management",
+          "Cyber threat",
+          "Firewall",
+          "Encryption"
+        ],
+        correctAnswer: 1
+      },
+      {
+        question: "5. What can be the impact of a cybercrime on a business? 10 remaining",
+        answers: [
+          "Increased employee productivity",
+          "Financial losses and reputational damage",
+          "Improved customer service",
+          "Faster internet speeds"
+        ],
+        correctAnswer: 1
+      },
+      {
+        question: "6. Which type of cybercrime involves tricking victims into revealing personal information? 9 remaining",
+        answers: [
+          "Phishing",
+          "Malware attack",
+          "Denial-of-service attack (DoS)",
+          "Data breach"
         ],
         correctAnswer: 0
       },
       {
-        question: "4. What Imagine you're setting up a new online gaming account. What information is generally NOT required for registration? 11 remaining",
+        question: "7. Ethical hacking involves attempting to exploit vulnerabilities in a computer system with permission. What is another term for an ethical hacker? 8 remaining",
         answers: [
-          "Your Social Security number or bank account details.",
-          "Your username and a strong password."
+          "Cybercriminal",
+          "White hat hacker",
+          "Black hat hacker",
+          "Script kiddie"
+        ],
+        correctAnswer: 1
+      },
+      {
+        question: "8. What is a primary role of an ethical hacker? 7 remaining",
+        answers: [
+          "To steal data from businesses.",
+          "To identify and report security vulnerabilities.",
+          "To launch denial-of-service attacks.",
+          "To spread malware across the internet."
+        ],
+        correctAnswer: 1
+      },
+      {
+        question: "9. Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
+        answers: [
+          "Cybersecurity Analyst",
+          "Ethical Hacker",
+          "Security Engineer",
+          "Chief Information Security Officer (CISO)"
+        ],
+        correctAnswer: 2
+      },
+      {
+        question: "10. What skills are important for a career in cybersecurity? 5 remaining",
+        answers: [
+          "Strong communication and problem-solving skills",
+          "Ability to code in multiple programming languages",
+          "Excellent customer service skills",
+          "Experience in graphic design"
         ],
         correctAnswer: 0
       },
       {
-        question: "5. You're on a secret mission in a foreign country and need to access your work email. Public Wi-Fi is your only option.  What's the safest way to connect? 10 remaining",
+        question: "11. Encryption is a technique used to: 4 remaining",
         answers: [
-          "Connect directly to the public Wi-Fi network.",
-          "Use a Virtual Private Network (VPN) to encrypt your connection. "
+          "Make data readable by authorized users.",
+          "Scramble data to make it unreadable without a key.",
+          "Slow down internet connections.",
+          "Track user activity online."
         ],
         correctAnswer: 1
       },
       {
-        question: "6. A friend shares a hilarious meme online, but the link seems suspicious.  What should you do before clicking? 9 remaining",
+        question: "12. A firewall acts as a barrier between a computer network and the internet. What is its primary function? 3 remaining",
         answers: [
-          "Click on the link to see the meme first.",
-          "Hover over the link to see the actual website address before clicking. "
+          "To block all incoming and outgoing traffic.",
+          "To filter incoming and outgoing traffic based on security rules.",
+          "To encrypt all data sent over the network.",
+          "To store user passwords securely."
         ],
         correctAnswer: 1
       },
       {
-        question: "7. You receive a text message congratulating you on winning a free vacation!  What's the first thing you should suspect? 8 remaining",
+        question: "13. What is a common social engineering tactic used by cybercriminals? 2 remaining",
         answers: [
-          "Free vacations are a common way to win big prizes.",
-          "Unexpected 'winnings' often involve scams"
+          "Exploiting software vulnerabilities.",
+          "Using strong encryption methods.",
+          "Creating a sense of urgency or fear to pressure victims.",
+          "Implementing multi-factor authentication."
         ],
-        correctAnswer: 1
+        correctAnswer: 2
       },
       {
-        question: "8. Imagine you're a spy and need to send a secret message to your partner.  How can you make your message unreadable to enemies? 7 remaining",
+        question: "14. Multi-factor authentication (MFA) is an additional layer of security that requires: 1 remaining",
         answers: [
-          "Encrypt your message with a password or special software.",
-          "Use emojis and symbols to create a code."
+          "Only a strong password.",
+          "Either a password or a fingerprint scan.",
+          "Both a password and a unique code sent to your phone.",
+          "Answering a series of personal security questions."
         ],
-        correctAnswer: 0
+        correctAnswer: 2
       },
       {
-        question: "9. You discover a hidden compartment in your new apartment containing someone else's credit card.  What's the ethical thing to do? 6 remaining",
+        question: "15. How can individuals stay informed about the latest cybersecurity threats? 0 remaining",
         answers: [
-          "Keep the credit card and use it for online purchases.",
-          "Return the credit card to the rightful owner or report it to the authorities."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "10. You suspect a colleague might be accidentally leaking sensitive company information online.  What's the best approach? 5 remaining",
-        answers: [
-          "Publicly confront your colleague and accuse them of wrongdoing.",
-          "Discreetly report your concerns to a supervisor or security team."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "11. Imagine you're a double agent and need to access a secure computer system.  What might a cybercriminal use to gain unauthorized access? 4 remaining",
-        answers: [
-          "A software program that exploits a system vulnerability.",
-          "A special key that unlocks the system physically."          
-        ],
-        correctAnswer: 0
-      },
-      {
-        question: "12. You notice your phone battery draining faster than usual.  What could be a potential culprit? 3 remaining",
-        answers: [
-          "You've been playing too many games recently.",
-          "Malware running in the background might be using resources."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "13. Your mission briefing warns you about a common social engineering tactic.  What involves manipulating victims into revealing personal information? 2 remaining",
-        answers: [
-          "Sending birthday gifts to unsuspecting targets.",
-          "Pretending to be a legitimate authority figure to gain trust."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "14. You're tasked with protecting a top-secret document.  What security measure involves restricting access only to authorized personnel? 1 remaining",
-        answers: [
-          "Leaving the document on a public desk for everyone to see.",
-          "Implementing access controls and user permissions. "
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "15. Imagine you're building a team of cybersecurity experts.  What role involves using hacking skills ethically to identify system weaknesses? 0 remaining",
-        answers: [
-          "A data analyst specializing in market research.",
-          "An ethical hacker (white hat hacker) who tests security measures."
+          "Clicking on links in unknown emails.",
+          "Following reputable cybersecurity resources online.",
+          "Downloading software from untrusted sources.",
+          "Sharing personal information on public social media profiles."
         ],
         correctAnswer: 1
       },
@@ -181,7 +211,7 @@ const questions = [
   function displayUsername() {
     const usernameElement = document.getElementById("username-display");
     if (usernameElement) {
-      usernameElement.textContent = "Welcome to Week (II) Test, " + temporaryUsername;
+      usernameElement.textContent = "Welcome to Week (I) Test, " + temporaryUsername;
     }
   }
   
