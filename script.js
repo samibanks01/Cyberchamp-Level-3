@@ -1,153 +1,153 @@
 const questions = [
     {
-        question: "1. Why is cybersecurity important? 14 remaining",
+        question: "1. What is the difference between TCP and UDP protocols? 14 remaining",
         answers: [
-          "To keep your computer running smoothly.",
-          "To protect sensitive information from unauthorized access.",
-          "To ensure all websites are accessible.",
-          "To browse the internet anonymously."
+          "TCP is connection-oriented, UDP is connectionless.",
+          "TCP is faster, UDP is slower.",
+          "TCP is unreliable, UDP is reliable.",
+          "TCP is used for streaming, UDP is used for file transfer."
         ],
-        correctAnswer: 1 //1
+        correctAnswer: 0 //1
       },
       {
-        question: "2. The CIA triad represents three key principles in information security. What does 'A' stand for? 13 remaining",
+        question: "2. Explain the OSI model and its seven layers. 13 remaining",
         answers: [
-          "Authentication",
-          "Availability",
-          "Confidentiality",
-          "Authorization"
+          "The OSI model is a conceptual framework used to describe the functions of a networking system.",
+          "The seven layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+          "Each layer performs specific tasks related to data communication.",
+          "All of the above."
         ],
-        correctAnswer: 1 //2
+        correctAnswer: 3 //2
       },
       {
-        question: "3. Which of the following is NOT a core element of information security? 12 remaining",
+        question: "3. What is the purpose of a router in a network? 12 remaining",
         answers: [
-          "Confidentiality",
-          "Integrity",
-          "Redundancy",
-          "Availability"
+          "To connect devices within a network.",
+          "To amplify network signals.",
+          "To direct network traffic between networks.",
+          "To provide internet access."
         ],
         correctAnswer: 2
       },
       {
-        question: "4. The cybersecurity landscape is constantly evolving. What is a term used to describe malicious attempts to exploit vulnerabilities in computer systems? 11 remaining",
+        question: "4. What are the different types of firewalls? 11 remaining",
         answers: [
-          "Patch management",
-          "Cyber threat",
-          "Firewall",
-          "Encryption"
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "5. What can be the impact of a cybercrime on a business? 10 remaining",
-        answers: [
-          "Increased employee productivity",
-          "Financial losses and reputational damage",
-          "Improved customer service",
-          "Faster internet speeds"
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "6. Which type of cybercrime involves tricking victims into revealing personal information? 9 remaining",
-        answers: [
-          "Phishing",
-          "Malware attack",
-          "Denial-of-service attack (DoS)",
-          "Data breach"
+          "Packet filtering, application-level gateway, stateful inspection.",
+          "Software, hardware, cloud-based.",
+          "Firewall, IDS, IPS.",
+          "All of the above."
         ],
         correctAnswer: 0
       },
       {
-        question: "7. Ethical hacking involves attempting to exploit vulnerabilities in a computer system with permission. What is another term for an ethical hacker? 8 remaining",
+        question: "5. How does an Intrusion Detection System (IDS) differ from an Intrusion Prevention System (IPS)? 10 remaining",
         answers: [
-          "Cybercriminal",
-          "White hat hacker",
-          "Black hat hacker",
-          "Script kiddie"
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "8. What is a primary role of an ethical hacker? 7 remaining",
-        answers: [
-          "To steal data from businesses.",
-          "To identify and report security vulnerabilities.",
-          "To launch denial-of-service attacks.",
-          "To spread malware across the internet."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "9. Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
-        answers: [
-          "Cybersecurity Analyst",
-          "Ethical Hacker",
-          "Security Engineer",
-          "Chief Information Security Officer (CISO)"
-        ],
-        correctAnswer: 2
-      },
-      {
-        question: "10. What skills are important for a career in cybersecurity? 5 remaining",
-        answers: [
-          "Strong communication and problem-solving skills",
-          "Ability to code in multiple programming languages",
-          "Excellent customer service skills",
-          "Experience in graphic design"
+          "IDS detects attacks, IPS prevents them.",
+          "IDS prevents attacks, IPS detects them.",
+          "IDS and IPS are the same.",
+          "IDS is hardware-based, IPS is software-based."
         ],
         correctAnswer: 0
       },
       {
-        question: "11. Encryption is a technique used to: 4 remaining",
+        question: "6. What is a firewall's role in network security? 9 remaining",
         answers: [
-          "Make data readable by authorized users.",
-          "Scramble data to make it unreadable without a key.",
-          "Slow down internet connections.",
-          "Track user activity online."
+          "To monitor network traffic for malicious activity.",
+          "To control network access by filtering traffic.",
+          "To encrypt network traffic.",
+          "To detect and block network attacks."
         ],
         correctAnswer: 1
       },
       {
-        question: "12. A firewall acts as a barrier between a computer network and the internet. What is its primary function? 3 remaining",
+        question: "7. What is WPA3, and how does it improve upon WPA2? 8 remaining",
         answers: [
-          "To block all incoming and outgoing traffic.",
-          "To filter incoming and outgoing traffic based on security rules.",
-          "To encrypt all data sent over the network.",
-          "To store user passwords securely."
+          "WPA3 is a newer Wi-Fi security standard that offers stronger encryption and protection against attacks.",
+          "WPA3 is faster than WPA2.",
+          "WPA3 is cheaper than WPA2.",
+          "WPA3 is only compatible with newer devices."
+        ],
+        correctAnswer: 0
+      },
+      {
+        question: "8. What is the importance of MAC address filtering in wireless networks? 7 remaining",
+        answers: [
+          "To limit access to the network to specific devices.",
+          "To encrypt network traffic.",
+          "To improve network performance.",
+          "To prevent unauthorized access to the network."
+        ],
+        correctAnswer: 0
+      },
+      {
+        question: "9. What are some common wireless network attacks? 6 remaining",
+        answers: [
+          "Phishing, spear phishing, ransomware.",
+          "War driving, wardriving, man-in-the-middle attacks.",
+          "DDoS attacks, SQL injection, cross-site scripting.",
+          "Brute force attacks, dictionary attacks, keylogger attacks."
         ],
         correctAnswer: 1
       },
       {
-        question: "13. What is a common social engineering tactic used by cybercriminals? 2 remaining",
+        question: "10. What is a VPN (Virtual Private Network), and how does it work? 5 remaining",
         answers: [
-          "Exploiting software vulnerabilities.",
-          "Using strong encryption methods.",
-          "Creating a sense of urgency or fear to pressure victims.",
-          "Implementing multi-factor authentication."
+          "A VPN is a secure, encrypted connection over a public network.",
+          "A VPN masks your IP address to hide your online activity.",
+          "A VPN encrypts your internet traffic to protect your privacy.",
+          "All of the above."
         ],
-        correctAnswer: 2
+        correctAnswer: 3
       },
       {
-        question: "14. Multi-factor authentication (MFA) is an additional layer of security that requires: 1 remaining",
+        question: "11. What is the difference between a site-to-site and a remote access VPN? 4 remaining",
         answers: [
-          "Only a strong password.",
-          "Either a password or a fingerprint scan.",
-          "Both a password and a unique code sent to your phone.",
-          "Answering a series of personal security questions."
+          "Site-to-site VPNs connect networks, remote access VPNs connect individual devices.",
+          "Site-to-site VPNs are more secure than remote access VPNs.",
+          "Site-to-site VPNs are slower than remote access VPNs.",
+          "Site-to-site VPNs are only used for large organizations."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
       },
       {
-        question: "15. How can individuals stay informed about the latest cybersecurity threats? 0 remaining",
+        question: "12. What encryption protocols are commonly used in VPNs? 3 remaining",
         answers: [
-          "Clicking on links in unknown emails.",
-          "Following reputable cybersecurity resources online.",
-          "Downloading software from untrusted sources.",
-          "Sharing personal information on public social media profiles."
+          "AES, RSA, ECC.",
+          "WPA2, WPA3, WEP.",
+          "MD5, SHA-1, SHA-256.",
+          "SSL, TLS, IPsec."
+        ],
+        correctAnswer: 3
+      },
+      {
+        question: "13. What is the principle of least privilege in network security? 2 remaining",
+        answers: [
+          "Granting users only the minimum level of access needed to perform their tasks.",
+          "Using strong passwords and encryption.",
+          "Regularly patching and updating systems.",
+          "Implementing firewalls and intrusion detection systems."
+        ],
+        correctAnswer: 0
+      },
+      {
+        question: "14. Explain the concept of social engineering in the context of network security. 1 remaining",
+        answers: [
+          "Using technical means to exploit vulnerabilities in systems.",
+          "Manipulating people to gain unauthorized access to systems.",
+          "Hacking into networks to steal data.",
+          "Spreading malware through email attachments."
         ],
         correctAnswer: 1
+      },
+      {
+        question: "15. What is a zero-day exploit, and how can organizations protect themselves from it? 0 remaining",
+        answers: [
+          "A vulnerability that is known to attackers but not yet patched by the vendor.",
+          "A type of malware that spreads through email attachments.",
+          "A hacking technique that uses social engineering to gain access to systems.",
+          "A denial-of-service attack that overwhelms a network with traffic."
+        ],
+        correctAnswer: 0
       },
       // Add more questions here following the same format   
     // ... your questions here ...
